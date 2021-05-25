@@ -8,5 +8,5 @@ A mini ass script coded in a few mins spams channels on channel guild create
 # idiots
 - exceeding the range to over 5 will cause ratelimit issues
 - the bot may be flagged
-
-
+# skids
+- pls give credits
