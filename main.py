@@ -12,8 +12,6 @@ seth = client
 def clear():
   os.system("clear")
 clear()
-print(f"""{Fore.RED}
- """)
 @seth.event
 async def on_connect():
     print(
@@ -25,7 +23,7 @@ async def on_connect():
 async def on_guild_channel_create(ctx):
   global messages
   try:
-    for x in range(2):
+    for x in range(5):
       await ctx.send(messages)
       print(f"{Fore.GREEN}Spamming the channel{Fore.RESET}")
   except:
